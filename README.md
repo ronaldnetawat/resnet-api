@@ -1,19 +1,12 @@
 # ResNet18 API Deployment
 
-This project provides an API for deploying the ResNet18 model, facilitating image classification tasks through a web service.
+An API deployment for the ResNet18 model, prociding image classification tasks through a web service.
 
 ## Features
 
-- **ResNet18 Integration**: Utilizes the ResNet18 architecture for image classification.
+- **ResNet18 Integration**: Uses the ResNet18 architecture for image classification.
 - **API Endpoints**: Offers endpoints to submit images and receive classification results.
 - **Docker Support**: Contains a `Dockerfile` for containerized deployment.
-
-## Getting Started
-
-### Prerequisites
-
-- **Python**: Ensure Python is installed on your system.
-- **Docker**: For containerized deployment, install Docker.
 
 ### Installation
 
@@ -24,7 +17,7 @@ This project provides an API for deploying the ResNet18 model, facilitating imag
    cd resnet-api
    ```
 
-2. **Install Dependencies**:
+2. **Dependencies**:
 
    ```bash
    pip install -r requirements.txt
@@ -40,9 +33,9 @@ This project provides an API for deploying the ResNet18 model, facilitating imag
 
 2. **Access the API**:
 
-   Navigate to `http://localhost:5000` in your browser or use tools like `curl` or Postman to interact with the endpoints.
+   Go to `http://localhost:5000` in your browser or use tools like `curl` or Postman.
 
-### Docker Deployment
+### Docker deployment
 
 1. **Build the Docker Image**:
 
@@ -50,22 +43,14 @@ This project provides an API for deploying the ResNet18 model, facilitating imag
    docker build -t resnet-api .
    ```
 
-2. **Run the Docker Container**:
+2. **Run the Docker container**:
 
    ```bash
    docker run -p 5000:5000 resnet-api
    ```
 
-## Repository Structure
+## Main files
 
 - `app.py`: Main application file containing the API logic.
 - `requirements.txt`: Lists the Python dependencies.
 - `Dockerfile`: Instructions to build the Docker image.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
