@@ -1,6 +1,3 @@
-Based on your repository's structure and content, here's a suggested **`README.md`**:
-
-```markdown
 # ResNet18 API Deployment
 
 This project provides an API for deploying the ResNet18 model, facilitating image classification tasks through a web service.
@@ -72,6 +69,3 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
-
-This template provides an overview of your project, setup instructions, and usage guidelines. Customize it further based on your project's specifics. Let me know if you need additional details or assistance! 🚀 
